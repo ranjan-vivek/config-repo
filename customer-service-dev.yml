@@ -6,7 +6,7 @@ message: Hello from dev!
 spring: 
  datasource:
   url: jdbc:mysql://localhost:3306/cust_master
-  username: root
+  username: vivek
   password: root
  jpa:
   hibernate:
