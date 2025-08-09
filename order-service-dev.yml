@@ -1,9 +1,29 @@
+
+global:
+ message: Welcome to order service dev Environment
+server:
+ port: 8084
+message: Hello from dev!
+spring: 
+ datasource:
+  url: jdbc:h2:mem:order_master
+  username: root
+  password: root
+jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+  
+
+
+
 spring:
  application:
   name: customer-microservice
  datasource:
-  url: jdbc:mysql://localhost:3306/order_master
-  driverClassName: com.mysql.cj.jdbc.Driver
+  url: jdbc:h2:mem:order_master
+ 
  java:
   hibernate: 
    ddl-auto: none
