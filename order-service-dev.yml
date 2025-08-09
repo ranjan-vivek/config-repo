@@ -14,18 +14,3 @@ jpa:
       ddl-auto: update
     show-sql: true
     
-  
-
-
-
-spring:
- application:
-  name: customer-microservice
- datasource:
-  url: jdbc:h2:mem:order_master
- 
- java:
-  hibernate: 
-   ddl-auto: none
-  show-sql: false
-  
