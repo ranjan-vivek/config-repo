@@ -1,0 +1,11 @@
+spring:
+ application:
+  name: customer-microservice
+ datasource:
+  url: jdbc:mysql://localhost:3306/order_master
+  driverClassName: com.mysql.cj.jdbc.Driver
+ java:
+  hibernate: 
+   ddl-auto: none
+  show-sql: false
+  
