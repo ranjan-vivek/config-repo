@@ -1,16 +1,18 @@
-
 global:
- message: Welcome to order service dev Environment
+  message: Welcome to order service dev Environment
+
 server:
- port: 8084
+  port: 8084
+
 message: Hello from dev!
+
 spring: 
- datasource:
-  url: jdbc:h2:mem:order_master
-  username: root
-  password: root
-jpa:
+  datasource:
+    url: jdbc:h2:mem:order_master
+    username: root
+    password: root
+
+  jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-    
