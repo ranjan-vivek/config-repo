@@ -1,12 +1,14 @@
-
 spring:
- application:
-  name: customer-microservice
- datasource:
-  url: jdbc:mysql://localhost:3306/customer_master
-  driverClassName: com.mysql.cj.jdbc.Driver
- jpa:
-  hibernate: 
-   ddl-auto: none
-  show-sql: false
-  
+  application:
+    name: customer-microservice
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/customer_master
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root  # 🔁 replace with your actual password if it's not 'root'
+
+  jpa:
+    hibernate: 
+      ddl-auto: none
+    show-sql: false
